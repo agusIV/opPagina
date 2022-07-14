@@ -1,0 +1,149 @@
+ESTADOS:
+inactivo <->
+tranquilo <->
+movimiento <->
+defensa <->
+agarre 
+daño recibido 1 <->
+              2 <->
+	      salir volando <->
+	      tirado <->
+dash <->
+	con ataque
+salto <->
+	ataque normal
+	       arriba
+	       abajo
+	       horizontal arriba
+	           "      abajo
+combo normal
+       adelante (menos ussop)
+       arriba
+       abajo
+       horizontal arriba
+       horizontal abajo
+habilidad 1
+	  2
+	  3
+_____________________________________________________
+ESTADISTICAS:
+
+haki del rey
+________________________________________________________________________
+potencia|intimidacion	|desmayo	|presion objeto	|		|		
+control	|al azar	|uso a voluntad	|selec objetivo	|revestir	|
+rango	|bajo		|medio 		|alto		|		|
+________________________________________________________________________|
+
+haki de armadura
+________________________________________________________________________
+potencia|invisible	|endurecimiento	|mas duro	|		|
+control	|imbuir		|objetos	|emision	|interno	|
+rango	|parte de cuerpo|		|cuerpo completo|		|
+________________________________________________________________________|
+
+haki de observacion
+________________________________________________________________________
+potencia|presencia	|		|intenciones	|		|
+control |quieto		|movimiento	|batallando	|ver futuro	|
+rango	|bajo		|medio		|alto		|		|
+________________________________________________________________________|
+-------------------------------------------------------------------------
+Frutas Logia 
+pros: inmune a ataque si no sabe haki
+
+Mera Mera(Fuego) 
+pros: fuerte contra el hielo, nieve y gas. causa quemaduras constantes
+contras: se cancela con el humo, es debil contra el magma
+
+Magu Magu(magma) 
+pros: fuerte contra fuego, hielo, nieve y gas. causa quemaduras constantes
+
+Hie Hie(hielo) 
+pros: fuerte contra la nieve. reduce la velocidad
+contras: debil contra el fuego y el magma
+
+Yami Yami(oscuridad)
+pros: cancela cualquier fruta
+
+Numa Numa(Pantano)
+
+Suna Suna(Arena)
+
+Goro Goro(Sonido del trueno) 
+pros: aumenta el haki de observacion 
+contras: debil contra la goma
+
+Pika Pika(destello/luz) 
+pros: mayor velocidad
+
+Moku Moku(humo) 
+contras: se cancela con el fuego
+
+Gasu Gasu(gas) 
+contras: debil contra fuego y magma
+-----------------------------------------------------------------------
+Frutas Zoan 
+pros: mas resistentes y regenera daños criticos mas rapido
+
+Hito Hito(Hombre)
+
+Tori Tori modelo fénix(Pajaro)
+pros: regeneracion
+
+Neko Neko modelo Leopardo(Gato)
+
+Fruta Ryu Ryu modelo allosaurus(Dragon/Dinosaurio)
+-----------------------------------------------------------------------
+Frutas Paramecia
+
+Gura Gura(Terremoto) 
+pros: hace perder el equilibrio
+
+Nikyu Nikyu(Zarpa)
+pros: bloquea cualquier ataque
+
+Mero Mero(Sonido de enamorarse)
+pros convierte en piedra
+
+Yomi Yomi(Renacer)
+
+Bara Bara(Sonido del corte)
+pros: inmune a cortes
+
+Ito Ito(Hilo)
+pros: regenera daños criticos
+
+Horu Horu(Hormona)
+pros: auto-potenciador
+
+Jiki Jiki(Magnetismo)
+pros: atrae cosas metalicas para aumentar su poder
+
+Gomu Gomu(Goma)
+pros fuerte contra la electricidad y aumenta la resistencia a golpes
+
+Doku Doku(Veneno)
+pros: daño constante
+
+Supa Supa(Filo)
+pros: aumenta la resistencia
+
+Mane Mane(Imitacion)
+pros: cambia de apariencia
+contras: no cambia de ropa
+
+Hana Hana(Flor)
+pros: alcance medio
+
+Fuwa Fuwa(Levitar)
+
+Ope Ope(Operacion)
+pros: intercambia cualquier objeto dentro de su rango
+
+Mato Mato(Objetivo)
+pros: lanza objeto o ser vivo a cualquier persona que haya tocado con una de sus dos manos
+contras: máximo de dos objetivos al mismo tiempo
+
+Baku Baku(Sonido de Fabrica)
+pros: come objetos para mejorarse

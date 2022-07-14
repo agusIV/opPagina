@@ -1,0 +1,137 @@
+                     ATAQUE BASICOS				               cada golpe	especial
+1-barbablanca	haki del rey + fruta 	100		(gb1) "sea shaker" golpea a sus lados creando una onda de choque
+2-akainu	lava			                  98		(gb1) "magma fang" puño de lava
+3-mihawk	espadachin n1		            96		(gb1) "black blade single flash" 4 espadasos
+4-shanks	haki del rey		            94		(gb2) combo de 5 golpes
+5-barbanegra	2 frutas		            92		(gb1) "liberation" atrae, levanta y golpea	(gb2) atrae y golpea con terremoto
+6-kizaru				                     90		(gb1) "ama no iwato" patea un rayo de luz
+7-aokiji				                     88		(gb1) "peahsant beak" arroja un halcon de hielo
+8-jimbe					                  86		(gb1) "whale shark dance" combo de 3 golpes
+9-kuma					                  84		(gb1) "ursa shock" bomba
+10-magellan				                  82		(gb1) "heel's jusgadment" avansa y golpea convertido en veneno 3 veces
+11-marco				                     80		(gb2) patea hacia arriba, vuela y patea hacia abajo
+12-zoro 2				78		(gb2) combo de espadazos
+13-doflamingo			76		(gb2) aparecen hilos a su alrededor
+14-luffy 2				74		(gb2) metralleta de gear 3 con haki
+15-ace					72		(gb1) "flame monarch" bola de fuego gigante
+16-hancock				70		(gb1) "perfume femur" 10 patadas aprox
+17-franky				68		(gb2) coup de burst
+18-ivankov				66		(gb1) "galaxy wink" dispara al azar a su alrededor
+19-sanji 2				64		(gb2) combo de 0 patadas con diable jambe
+20-rob lucci			62		(gb2) rokuogan
+21-kid					60		(gb2) crea un campo electromacnetico para atraer metales y golpear en el lugar atraido
+22-x drake				58		(gb2) se convierte en dinosaurio y embiste
+23-luffy 1				56		(gb1) combo de 3 golpes en gear 3
+24-law					54		(gb2) saca una bomba, hace un combo de espadazos, tira una piedra e intercambia la bomba con la piedra
+25-hody jones			52		(gb2) agarra al enemigo y lo tira para todos lados
+26-zoro 1				50		(gb1) "3000 worlds" corte limpio
+27-smoker				48		(gb2) tira humo a su alrededor
+28-enel					46		(gb2) atrae truenos a su alrededor
+29-crocodile			44 	(gb1) "pesado & la espada" salta, crea un tornado y despues unas espadas hacia abajo
+30-brook				   42		(gb2) saca su coro y cantan
+31-vander decken		40		(gb2) le tir de todo
+32-chopper 1			38		(gb1) "charge" 3 golpes en mounstro
+33-sanji 1				36		(gb1) "diable jambe flambage shot" patada de fuego
+34-wapol				   34		(gb2) se convierte en tanque y dispara mientras avanza
+35-koby					32		(gb2) combo de 4 patadas con Rankyaku
+36-chopper 2			30		(gb2) combo de golpes en distintas formas
+37-ussop 2				28		(gb2) deja una planta carnivora en el piso y muerde
+38-vivi					26		(gb2) llama a sus patos y los pisan
+39-buggy				   24		(gb1) "captain buggy" manda a sus tripulantes
+40-robin				   22		(gb2) saca 2 manos gigantes que empujan
+41-caribou				20		(gb2) absorve y suelta al enemigo
+42-ussop 1				18		(gb1) "sogeking" dispara 2 bolas de fuego y un aguila de fuego
+43-nami 2				16		(gb1) thunder lancer tempo x2
+44-nami 1				14		(gb1) "thunder lancer tempo" deja una nube electrica y la guia hacia donde esta ella
+
+VELOCIDAD
+1-law		      tp dentro de su room
+2-kizaru	      velocidad de la luz
+3-enel		   velocidad de electricidad
+4-shanks	
+5-mihawk	      puede seguir el gear 2
+6-kuma
+7-marco		   puede volar muy rapido
+8-brook		   al ser un esqueleto es ligero
+9-luffy 2	   gear 2
+10-sanji 2
+11-aokiji
+12-hancock
+13-doflamingo
+14-luffy 1	   gear 2
+15-rob lucci
+16-ace
+17-zoro 2
+18-sanji 1
+19-akainu
+20-smoker
+21-crocodile
+22-zoro 1
+23-kid
+24-x drake
+25-koby
+26-ussop 2
+27-jimbe
+28-ivankov
+29-chopper 2
+30-barbablanca
+31-magellan
+32-barbanegra
+33-hody jones
+34-caribou
+35-ussop 1
+36-vivi
+37-nami 2
+38-vander decken
+39-buggy
+40-nami 1
+41-robin	         lento
+42-chopper 1	   lento
+43-franky	      lento
+44-wapol	         lento
+
+RESISTENCIA
+kuma		      689  
+barbablanca	   666  
+magellan	      491   
+ivankov		   449
+vander decken	352
+barbanegra  	344
+hody jones	   331
+akainu		   306
+doflamingo	   305
+kizaru		   302
+jimbe		      301
+aokiji 		   298
+brook		      277
+enel		      266
+crocodile	   253
+franky		   240
+X drake		   233
+caribou 	      228
+lucci		      212
+smoker 		   209
+wapol 		   207
+kid		      205
+marco		      203
+shanks		   199
+mihawk		   198
+buggy 		   192
+hancock		   191
+law		      191
+robin		      188
+ace		      185
+zoro 2		   181
+sanji 2		   180
+zoro 1		   178
+sanji 1		   177
+ussop 2		   176
+luffy 2		   174
+ussop 1		   174
+luffy 1		   172
+nami 2		   170
+nami 1 		   169
+vivi		      169
+koby 		      167
+chopper 2	   90
+chopper 1	   90

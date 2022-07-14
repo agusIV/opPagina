@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<head>
+   <title>Document</title>
+   <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+   <section>
+      <p>resolucion nds 256x384</p>
+      <img id="imagen" src="5893 - One Piece Gigant Battle 2 - Shin Sekai (J)(Caravan)__6064.png" alt="">
+
+      <div id="comparacion">
+         <canvas id="personaje"></canvas>
+      </div>
+      
+      <br>
+      <h1>juego original</h1>
+      <p>estadisticas basicas</p>
+      <ul>
+         <li>vida</li>
+         <li>PG (puntos de gigante)</li>
+         <li>ataque</li>
+         <li>defensa</li>
+         <li>velocidad</li>
+      </ul>
+      
+      <p>cada personaje tiene 3 habilidades especiales que consumen PG que se obtienen <br> 
+         recibiendo daño, bloqueando con exito y comiendo. <br>
+      la cantidad maxima de PG es de 3 (o 4 en algunos casos).</p>
+      
+      <p>las arenas de batalla pueden contener elementos que interfieren con la batalla</p>
+      <br>
+
+      <h2>controles</h2>
+      <ul>
+         <li>salto</li>
+         <li>doble salto</li>
+         <li>ataque</li>
+         <li>bloquear</li>
+         <li>agarre</li>
+         <li>activar PG</li>
+         <li>dash</li>
+         <li>dash con salto</li>
+         <li>bajada rapida</li>
+         <li>evadir(consume PG)</li>
+         <li>lanzar objeto</li>
+         <li>movimiento de camara</li>
+      </ul>
+      <br>
+
+      <h2>furia</h2>
+      <p>el estado de furia se activa cuando el hp del personaje llega a zero y sus pg estan al maximo, <br>
+         (sin enbargo este estado no se activa si te terminan con un ataque especial) <br>
+         tambien puede activarse pulsando todos los botones, pero consume vida (solo se activa una vez). <br>
+      </p>
+      <br>
+
+      <h2>guardia bingo</h2>
+      <p>te permite esquivar el ataque y te da medio pg, <br>
+         para hacerlo hay que bloquear en el momento exacto del ataque <br>
+         (los usuarios de tipo logia se teletransportan atras de su enemigo).
+      </p>
+      <br>
+
+      <h2>guardia logia</h2>
+      <p>presionando abajo + bloqueo bloquea cualquier tipo de ataque (menos agarres y ataques especiales) <br>
+         a cambio de PG (no se aplica para barbanegra).
+      </p>
+      <br>
+
+      <h2>guardia rota</h2>
+      <p>si se bloquea constantemente la guardia se puede romper, <br> 
+         hay ataques y habilidades que no se pueden bloquear
+      </p>
+      <br>
+
+      <h2>mejora zoan</h2>
+      <p>si se apreta abajo + bloqueo los usuarios zoan obtienen una mejora de ataque, defensa y velocidad, a cambio de medio PG.
+      </p>
+      <p>ademas los usuarios zoan obtienen 1 PG mas (4 en total)</p>
+      <br>
+
+      <h2>efectos de estadisticas</h2>
+      <p>estos efectos los causan objetos o personajes</p>
+      <ul>
+         <li>paralisis: te stunea, mantener a una direccion para reducir el tiempo de paralisis</li>
+         <li>indigestion: te stunea, perdes vida y PG, causado por comida podrida</li>
+         <li>posion: perdes vida constantemente</li>
+         <li>congelado: te stunea y recibis el doble de daño</li>
+         <li>quemadura: perdes vida constantemente, pero si tocas al oponente le pasas el efecto</li>
+         <li>comida caliente: no podes parar de correr</li>
+         <li>ciego: se queda ciego</li>
+         <li>electrificacion: te shockea cada segundo y no te permite hacer combos o ataques especiales</li>
+         <li>confucion: se invierten la izquierda y derecha</li>
+         <li>piedra: stunea, solo lo causa boa hancock</li>
+         <li>relentizacion: causado por foxy</li>
+         <li>depresivo: no te podes mover, causado por perona</li>
+         <li>encantado: stunea, causado por hancock y wapol</li>
+         <li>infante: te transformas en niño y no te podes mover, causado por bonney</li>
+         <li>hormonas: obtenes ataque, defensa, velocidad y mas PG, pero despues de cierto tiempo se reduce tu vida, causado por hancock</li>
+         <li>golpe de viento: obstaculiza tus movimientos, causado por dragon</li>
+         <li>restriccion: no podes atacar ni defenderte, causado por hina</li>
+         <li>armadura: suprime el daño de retroceso, causado por ivankov o hodi</li>
+         <li>guardia rota: rompe la guardia</li>
+         <li>?: estuneado, se activa cuando el ataque no produce el efecto deseado</li>
+      </ul> 
+      <br>
+
+      <h2>caracteristicas naturales</h2>
+      <ul>
+         <li>
+            estandar
+            <ul>
+               <li>
+                  pros:
+                  <ul>
+                     <li>reduccion de daño al caer en agua</li>
+                     <li>aumenta la acumulacion PG</li>
+                     <li>mejoras de items aumentan</li>
+                  </ul>
+               </li>
+               <li>
+                  contras:
+                  <ul>
+                     <li>sin habilidades adicionales</li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li>
+            paramecia
+            <ul>
+               <li>
+                  pros:
+                  <ul>
+                     <li>rompe guardia despues de ataques constantes</li>
+                     <li>habilidades unicas</li>
+                  </ul>
+               </li>
+               <li>
+                  contras:
+                  <ul>
+                     <li>recibe mas daño de armas melee (excepto por buggy)</li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li>
+            logia
+            <ul>
+               <li>
+                  pros:
+                  <ul>
+                     <li>guardia bingo logia</li>
+                     <li>guardia logia</li>
+                  </ul>
+               </li>
+               <li>
+                  contras:
+                  <ul>
+                     <li>guardia bingo consume PG</li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li>
+            zoan
+            <ul>
+               <li>
+                  pros
+                  <ul>
+                     <li>4 PG</li>
+                     <li>mejora zoan</li>
+                     <li>ataques dan mas PG</li>
+                  </ul>
+               </li>
+               <li>
+                  contras
+                  <ul>
+                     <li>recibir daño da menos PG</li>
+                     <li>furia consume 4 PG</li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <p>algunos personajes tienen caracteristicas especiales</p>
+      <ul>
+         <li>luffy, chopper, enel, hodi jones, akainu son inmunes a piedra</li>
+         <li>hodi y jimbe pierden PG cuando caen en agua, decken no lo hace</li>
+         <li>ussop inmune a dpresion</li>
+         <li>barbanegra no puede usar la guardia de logia</li>
+         <li>sanji es mas debil contra mujeres</li>
+      </ul>
+      <br>
+   </section>
+
+   <section>
+      <h1>mi juego</h1>
+      <p>a diferencia del original yo reemplazo los PG por resistencia, que funciona de la misma manera marcando el ritmo de la pantalla, <br> 
+         desgastandose por usar el dash, defenderce y esquivar. </p>
+         <p>al esquivar se puede contraatacar mientras tengas resistencia y reflejos</p>
+         <p>la habilidad mas fuerte gasta mas del 50% de la barra</p>
+      <h2>estadisticas</h2>
+      <table>
+         <thead>
+            <th>nombre</th>
+            <th>fruta</th>
+            <th>vida</th>
+            <th>ataque</th>
+            <th>defensa</th>
+            <th>velocidad</th> <!--de movimiento y ataques-->
+            <th>haki</th><!--observasion = mejor evasion, armadura = mejor defensa y ataque-->
+            <th>resistencia</th> <!--desgaste fisico por recibir golpes, dash y uso de habilidades-->
+            <th>regeneracion</th> <!--de vida y resistencia-->
+         </thead>
+         <tbody>
+            <tr>
+               <td>ace</td>
+               <td>1</td>
+               <td>2</td>
+               <td>1</td>
+               <td>1</td>
+               <td>2</td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>akainu</td>
+               <td>3</td>
+               <td>3</td>
+               <td>2</td>
+               <td>3</td>
+               <td>1</td>
+               <td>2</td>
+            </tr>
+            <tr>
+               <td>aokiji</td>
+               <td>2</td>
+               <td>1</td>
+               <td>3</td>
+               <td>2</td>
+               <td>3</td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>arlong</td>
+            </tr>
+            <tr>
+               <td>barbablanca</td>
+            </tr>
+            <tr>
+               <td>barbanegra</td>
+            </tr>
+            <tr>
+               <td>kuma</td>
+            </tr>
+            <tr>
+               <td>hancock</td>
+            </tr>
+            <tr>
+               <td>brook</td>
+            </tr>
+            <tr>
+               <td>buggy</td>
+            </tr>
+            <tr>
+               <td>caribou</td>
+            </tr>
+            <tr>
+               <td>chopper 1</td>
+            </tr>
+            <tr>
+               <td>chopper 2</td>
+            </tr>
+            <tr>
+               <td>crocodile</td>
+            </tr>
+            <tr>
+               <td>doflamingo</td>
+            </tr>
+            <tr>
+               <td>mihawk</td>
+            </tr>
+            <tr>
+               <td>ivankov</td>
+            </tr>
+            <tr>
+               <td>enel</td>
+            </tr>
+            <tr>
+               <td>kid</td>
+            </tr>
+            <tr>
+               <td>foxy</td>
+            </tr>
+            <tr>
+               <td>franky 1</td>
+            </tr>
+            <tr>
+               <td>franky 2</td>
+            </tr>
+            <tr>
+               <td>hody jones</td>
+            </tr>
+            <tr>
+               <td>jimbe</td>
+            </tr>
+            <tr>
+               <td>kizaru</td>
+            </tr>
+            <tr>
+               <td>koby</td>
+            </tr>
+            <tr>
+               <td>luffy 1</td>
+            </tr>
+            <tr>
+               <td>luffy 2</td>
+            </tr>
+            <tr>
+               <td>magellan</td>
+            </tr>
+            <tr>
+               <td>marco</td>
+            </tr>
+            <tr>
+               <td>mr.1</td>
+            </tr>
+            <tr>
+               <td>mr.2</td>
+            </tr>
+            <tr>
+               <td>nami 1</td>
+            </tr>
+            <tr>
+               <td>nami 2</td>
+            </tr>
+            <tr>
+               <td>vivi</td>
+            </tr>
+            <tr>
+               <td>nico robin 1</td>
+            </tr>
+            <tr>
+               <td>nico robin 2</td>
+            </tr>
+            <tr>
+               <td>rob lucci</td>
+            </tr>
+            <tr>
+               <td>sanji 1</td>
+            </tr>
+            <tr>
+               <td>sanji 2</td>
+            </tr>
+            <tr>
+               <td>shanks</td>
+            </tr>
+            <tr>
+               <td>shiki</td>
+            </tr>
+            <tr>
+               <td>smoker</td>
+            </tr>
+            <tr>
+               <td>tashigi</td>
+            </tr>
+            <tr>
+               <td>law</td>
+            </tr>
+            <tr>
+               <td>ussop 1</td>
+            </tr>
+            <tr>
+               <td>ussop 2</td>
+            </tr>
+            <tr>
+               <td>vander decken</td>
+            </tr>
+            <tr>
+               <td>wapol</td>
+            </tr>
+            <tr>
+               <td>x drake</td>
+            </tr>
+            <tr>
+               <td>zoro 1</td>
+            </tr>
+            <tr>
+               <td>zoro 2</td>
+            </tr>
+         </tbody>
+         <tfoot>
+            <th>nombre</th>
+         </tfoot>
+      </table>
+   </section>
+
+   <script type="module" src="script.js"></script>
+</body>
+
+</html>

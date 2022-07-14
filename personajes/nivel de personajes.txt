@@ -1,0 +1,70 @@
+haki de armadura: multiplica un porcentaje en el ataque y disminuye el daño entrante
+1 = 15%
+2 = 30%
+3 = 45%
+
+haki de observacion: obtiene habilidades diferentes
+1 = puede saber donde esta el enemigo por mas que no lo vea
+2 = puede esquivar ataques
+3 = puede contraatacar
+
+haki del rey: ventajas unicas
+1 = puede debilitar al enemigo si no posee haki del rey
+2 = genera presion alrededor que debilita al enemigo
+3 = multiplica el haki de armadura x2
+
+NIVEL YONKOU	vida |haki del rey | de armadura | de observacion |   ataque   |    velocidad
+Barbablanca	6660	   3		2		2		44		36
+Shanks		1990	   3		3		3		40		41
+Barbanegra	3440	   0		1		1		43		34
+Mihawk		1980	   ?		2		3		41		42
+Akainu		3060	   0		2		1		42		38
+
+NIVEL ALMIRANTE
+Aokiji		2980	   ?		2		2		38		40
+Kizaru		3020	   ?		2		1		39		44
+Marco		2030	   ?		1		2		37		43
+Magellan	4910	   ?		1		2		35		35
+
+NIVEL SHICHIBUKAI		
+Ace		1850	   1		1		1		36		39
+Jimbe		3010	   0		1		1
+Kuma		6890	   ?		?		?
+Doflamingo	3050	   1		1		1
+Hancock		1910	   1		1		1
+Luffy 2		1740	   2		1		2		34		37
+Ivankov 	4490	   ?		1		?
+Enel		2660	   0		0		2
+Zoro 2		1810	   ?		1		1
+Crocodile	2530	   ?		?		?
+
+NIVEL VICE-ALMIRANTE
+sanji 2		1800	   0		1		2
+Smoker		2090	   0		1		1
+Franky		2400	   0		0		0
+Hody Jones	3310	   0		0		0
+Luffy 1		1720	   1		0		1
+Rob Lucci	2120	   0		0		0
+Kid		2050	   1		0		0
+law		1910	   0		0		0
+X Drake		2330	   0		0		0
+Zoro 1		1780	   0		1		1
+Caribou		2280	   0		?	        ?
+
+OTROS
+sanji 1		1770	   0		0		0
+Robin		1880	   0		0		0
+Brook		2770	   0		0		0
+Nami 2		1700	   0		0		0
+Chopper 2	900	   0		0		0
+Ussop 2		1760	   0		0		1
+Koby		1670	   0		0		1
+Chopper 1	900	   0		0		0
+Ussop 1		1740	   0		0		0
+Nami 1		1690	   0		0		0
+Wapol		2070	   0		0		0
+Vander Decker	3520	   0		0		0
+Buggy		1920	   0		0		0
+Vivi		1690	   0		0		0		30	
+
+shiki
